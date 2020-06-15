@@ -43,7 +43,7 @@ export default function Cart() {
         <div className="step-container">
             {cart.length == 0 ? <EmptyCart /> 
             : 
-            <div className="step-container">
+            <div className="cart-container">
                 <div className="step-row">
                     <h1 className="shop-title">Your Cart</h1>
                 </div>

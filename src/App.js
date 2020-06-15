@@ -19,9 +19,9 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/" component={FirstPage}/>
-            <Route path="/shop" component={ProductList}/>
-            <Route path="/details" component={Details}/>
-            <Route path="/cart" component={Cart}/>
+            <Route exact path="/shop" component={ProductList}/>
+            <Route exact path="/details" component={Details}/>
+            <Route exact path="/cart" component={Cart}/>
             <Route component={Default}/>
           </Switch>
           <Footer />
