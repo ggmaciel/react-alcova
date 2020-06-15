@@ -63,7 +63,7 @@ export default function Details() {
                     </div>
                </div>
                <div>
-                   <Link to="/">
+                   <Link to="/shop">
                     <button  className="detail-btn">
                         Back to Products
                     </button>

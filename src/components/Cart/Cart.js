@@ -11,7 +11,6 @@ export default function Cart() {
     const [open, setOpen] = useState(true)
     const [open2, setOpen2] = useState(true)
 
-
     const data = cart.map(product => {
         return <CartData key={product.id} product={product}/>
     })
@@ -21,7 +20,6 @@ export default function Cart() {
 
         //Onload check innerWidth
         const loadOpen = window.innerWidth;
-        console.log(loadOpen)
         if (loadOpen < 860) {
             setOpen2(false)
         } else if (loadOpen > 860){
@@ -31,7 +29,6 @@ export default function Cart() {
         //On Resize check innerWidth
         function resize() {
             const width = window.innerWidth;
-            console.log(width)
             if (width < 860) {
                 setOpen(false)
             } else if (width > 860) {

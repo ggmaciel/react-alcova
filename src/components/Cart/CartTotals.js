@@ -1,4 +1,5 @@
 import React from 'react'
+import Paypal from './Paypal'
 import { useCartSubTotal, useCartTax, useCartTotal } from '../../Context/ProductContext'
 import {useCart} from '../../Context/ProductContext'
 import {useProduct} from '../../Context/ProductContext'
@@ -39,6 +40,7 @@ export default function CartTotals() {
                     <h3>Total: R${cartTotal}</h3>
                 </div>
             </div>
+            <Paypal clearCart={clearCart}/>
         </div>
     )
 }
