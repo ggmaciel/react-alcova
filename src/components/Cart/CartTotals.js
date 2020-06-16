@@ -40,7 +40,7 @@ export default function CartTotals() {
                     <h3>Total: R${cartTotal}</h3>
                 </div>
             </div>
-            <Paypal clearCart={clearCart}/>
+            <Paypal />
         </div>
     )
 }

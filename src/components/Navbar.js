@@ -14,7 +14,7 @@ export default function Navbar() {
             </Link>
 
                     <li className="nav-li">
-                        <a  href="https://github.com/">
+                        <a  href="https://github.com/ggmaciel/react-alcova-store">
                             <span>{element}</span>
                         </a>
                     </li>

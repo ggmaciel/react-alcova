@@ -589,6 +589,12 @@ body {
   cursor: pointer;
 }
 
+.paypal {
+  background-color: #1a1a1a;
+  text-align: center;
+  outline: none;
+}
+
 
 
 
